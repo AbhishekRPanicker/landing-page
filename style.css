@@ -17,6 +17,10 @@ body {
 
 .header {
   justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 18px 0;
 }
 
 .logo {
@@ -45,13 +49,13 @@ ul {
 
 .content .box,
 .content img {
+
   width: 500px;
   height: auto;
   color: #f9faf8;
   margin: 48px 0;
   padding: 16px;
   width: 580px;
-
 }
 
 .content .heading {
@@ -69,7 +73,7 @@ ul {
   border-radius: 10px;
   padding: 8px 16px;
   background-color: #3882f6;
-  color: white;
+  color:  #f9faf8;
   font-weight: 800;
 }
 
@@ -103,12 +107,13 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin:0 24px;
+  margin: 0 24px;
 }
 
 .illustrations p {
   max-width: 200px;
 }
+
 .info .box {
   height: 200px;
   width: 200px;
@@ -137,6 +142,37 @@ ul {
   width: 976px;
   text-align: end;
 }
+
+.call > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  width: 1160px;
+  border-radius: 8px;
+  color: #f9faf8;
+  padding: 42px;
+}
+
+.call p {
+  margin: 0 auto;
+}
+
+.call .heading{
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.call button{
+  border-radius: 8px;
+  background-color: #3882f6;
+  border-color: #f9faf8;
+  box-shadow: none;
+  color: #f9faf8;
+  font-weight: 800;
+  padding: 8px 16px;
+}
+
 
 .footer {
   font-size: 18px;
