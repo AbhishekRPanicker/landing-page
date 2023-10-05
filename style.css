@@ -49,7 +49,6 @@ ul {
 
 .content .box,
 .content img {
-
   width: 500px;
   height: auto;
   color: #f9faf8;
@@ -73,7 +72,7 @@ ul {
   border-radius: 10px;
   padding: 8px 16px;
   background-color: #3882f6;
-  color:  #f9faf8;
+  color: #f9faf8;
   font-weight: 800;
 }
 
@@ -158,12 +157,12 @@ ul {
   margin: 0 auto;
 }
 
-.call .heading{
+.call .heading {
   font-weight: 800;
   font-size: 18px;
 }
 
-.call button{
+.call button {
   border-radius: 8px;
   background-color: #3882f6;
   border-color: #f9faf8;
@@ -172,7 +171,6 @@ ul {
   font-weight: 800;
   padding: 8px 16px;
 }
-
 
 .footer {
   font-size: 18px;
